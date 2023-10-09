@@ -1,10 +1,8 @@
-import React from 'react'
-import './features.css'
+import React from "react";
+import "./features.css";
 
 const Feartures = () => {
-  return (
-    <div>Feartures</div>
-  )
-}
+  return <div className="gpt__features section__padding" id="features"></div>;
+};
 
-export default Feartures
+export default Feartures;
