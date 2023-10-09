@@ -12,7 +12,6 @@ import {
 } from "./container";
 
 import { CTA, Brand, Navbar } from "./components";
-import Fearture from "./components/feature/Feature";
 
 const App = () => {
   return (
@@ -23,7 +22,7 @@ const App = () => {
       </div>
       <Brand />
       <WhatGPT3 />
-      <Fearture />
+      <Features />
       <Possibility />
       <CTA />
       <Blog />
